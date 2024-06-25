@@ -9,7 +9,7 @@ type Props = {
 
 const CardItem = (props: Props) => {
     return (
-        <div className='bg-[#F8F4EA] p-6 rounded-2xl'>
+        <div className='card-body bg-[#F8F4EA] p-6 rounded-2xl'>
             <div className="title text-lg md:text-xl font-semibold">
                 {props.card.title}
             </div>
